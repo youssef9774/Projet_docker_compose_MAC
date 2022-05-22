@@ -1,0 +1,29 @@
+version: "3"
+services:
+  server:
+    build: server/
+    container_name: Serveur
+    command: python ./server.py
+    ports:
+      - 8080:8080
+
+  client:
+    build: client/
+    container_name: Client
+    command: python ./client.py
+    network_mode: host
+    depends_on:
+      - server
+
+  firewall:
+    build: firewall/
+    container_name: Firewall
+    cap_add:
+      - NET_ADMIN
+    sysctls:
+      - net.ipv4.ip_forward=1
+    command: >
+      bash -c "chmod -R +x . && ./clean.sh && ./firewall.sh  "
+
+    depends_on:
+      - client
