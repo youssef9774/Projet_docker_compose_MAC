@@ -36,7 +36,7 @@ On va Exécuter notre premier conteneur : nous allons Démarrer un conteneur bas
 
 ![DOCKER DESKTOP](pictures/5.png)
 
-## Etape 2 : Infrastructure demandée pour le projet 
+## Infrastructure demandée pour le projet 
 
 ![DOCKER DESKTOP](pictures/6.png)
 ![DOCKER DESKTOP](pictures/7.png)
