@@ -8,7 +8,7 @@ Creation une infrastructure composée de trois parties un serveur , un firewall 
 
 
 ## Etape 1 : Installation de Docker sur MAC
-A partir de site officier , on peut telecharger docker compatible sur MAC`
+A partir de site officiel , on peut telecharger docker compatible sur MAC`
 Lien de téléchargement : https://docs.docker.com/desktop/mac/install/
 ![DOCKER DESKTOP](pictures/1.png)
 
