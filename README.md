@@ -87,7 +87,8 @@ Fichier firewall.sh
 Dockerfile :
 ![DOCKER DESKTOP](pictures/20.png)
 
-Fichier docker-compose.yml 
+Fichier docker-compose.yml
+
 ![DOCKER DESKTOP](pictures/21.png)
 
 ## Lancement de projet sur docker 
@@ -149,7 +150,7 @@ Avec la commande `curl 172.17.0.1 :8080`  on peut lancer aussi le site web ( ser
 Le firewall autorise une règle sur le port 172.18.0.1 
 Et il refuse d’autre adresse ip  dans le but de filtrage des adresses ip .
 
-![DOCKER DESKTOP](pictures/33.png)
+![DOCKER DESKTOP](pictures/34.png)
 
 
 
